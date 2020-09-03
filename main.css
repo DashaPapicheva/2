@@ -1,0 +1,25 @@
+.bold_words {
+  font-weight: bold;
+}
+.italic_words {
+  font-style: italic;
+}
+.strikethrough_words {
+  text-decoration-line: line-through;
+}
+.figure_pict {
+  width: 30rem;
+}
+table {
+  border-spacing: 0;
+  border: 1px solid black;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+.table_footer {
+  text-align: center;
+  font-weight: bold;
+}
