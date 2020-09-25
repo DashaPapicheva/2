@@ -5,114 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Программа курса</title>
 
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
 
   </head>
 
   <body>
-    <header>
-      <a href="index.html">Назад</a>
-      <h1>Информация о курсе</h1>
-    </header>
+    <div class="container">
 
-    <section>
-      <h2>Как работать на курсе?</h2>
-      <ol>
-        <li><a href="#table_about_tags">Изучить теги</a></li>
-        <li>Попрактиковаться</li>
-        <li>Выполнить домашнее задание</li>
-      </ol>
-    </section>
+      <header>
+        <div class="way_to_index">
+          <a href="index.html">Назад</a>
+        </div>
+        <h1 class="program_head">Информация о курсе</h1>
+      </header>
 
-    <section>
-      <h2>Описание курса</h2>
-      <p>
-        Вы познакомитесь со стандартами Web 2.0, научитесь работать с макетами и
-        форматировать код, освоите адаптивную верстку, а <span class="bold_words">по итогу</span> — сможете
-        создавать быстрые и удобные сайты, которые <span class="bold_words">точно понравятся пользователям.</span>
-        <!-- Здесь проставила span с классом, так как проставлять стили в html является плохой практикой. Иначе я бы поставила здесь <b>, точно не <strong>, так как по смыслу тут выделять нечего. -->
-      </p>
-      <p>
-        Вы поймёте назначение <span class="italic_words">основных тегов</span> HTML, сможете <span class="strikethrough_words">без усилий</span> стилизовать и размещать элементы с помощью CSS и сверстаете свой первый макет.
-        <!-- Здесь проставила span с классом, так как проставлять стили в html является плохой практикой. Иначе я бы поставила здесь для курсива <i>, точно не <em>, так как по смыслу тут выделять нечего. А для перечеркивания поставила бы <s>, не <del>, так как здесь чисто декорация, не удаление. -->
-      </p>
-      <figure>
-        <p>
-          <img class="figure_pict" src="pict/2.7_site1.jpeg" alt="Изображение сайта, который будет создан в рамках курсовой работы">
+      <section>
+        <h2 class="level_2_head">Как работать на курсе?</h2>
+        <ol class="list">
+          <li><a class="list_special_point" href="#table_about_tags">Изучить теги</a></li>
+          <li>Попрактиковаться</li>
+          <li>Выполнить домашнее задание</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2 class="level_2_head">Описание курса</h2>
+        <p class="paragraph">
+          Вы познакомитесь со стандартами Web 2.0, научитесь работать с макетами и
+          форматировать код, освоите адаптивную верстку, а <span class="bold_words">по итогу</span> — сможете
+          создавать быстрые и удобные сайты, которые <span class="bold_words">точно понравятся пользователям.</span>
+          <!-- Здесь проставила span с классом, так как проставлять стили в html является плохой практикой. Иначе я бы поставила здесь <b>, точно не <strong>, так как по смыслу тут выделять нечего. -->
         </p>
-        <figcaption>Курсовая работа</figcaption>
-      </figure>
-
-      <p>
-        Вторая часть курса сделает из вас настоящего мастера. Вы изучите
-        сборщики проектов, научитесь верстать email-рассылки, разберетесь с
-        анимацией на сайте.
-      </p>
-      <p>
-        Помимо этого, вы сверстаете фрагмент из интернет-магазина - главную
-        страницу, страницу каталога и страницу товара!
-      </p>
-      <figure>
-        <p>
-          <img class="figure_pict" src="pict/2.7_site2.jpeg" alt="Изображение сайта, который будет создан в рамках дипломного проекта">
+        <p class="paragraph">
+          Вы поймёте назначение <span class="italic_words">основных тегов</span> HTML, сможете <span class="strikethrough_words">без усилий</span> стилизовать и размещать элементы с помощью CSS и сверстаете свой первый макет.
+          <!-- Здесь проставила span с классом, так как проставлять стили в html является плохой практикой. Иначе я бы поставила здесь для курсива <i>, точно не <em>, так как по смыслу тут выделять нечего. А для перечеркивания поставила бы <s>, не <del>, так как здесь чисто декорация, не удаление. -->
         </p>
-        <figcaption>Дипломный проект</figcaption>
-      </figure>
-    </section>
+        <figure class="figure_pict">
+          <p>
+            <img class="figure_pict_image" src="pict/2.7_site1.jpeg" alt="Изображение сайта, который будет создан в рамках курсовой работы">
+          </p>
+          <figcaption>Курсовая работа</figcaption>
+        </figure>
 
-    <section>
-      <h2>Программа курса</h2>
-      <ul>
-        <li>Основы вёрстки</li>
-        <li>HTML</li>
-        <li>Формы и медиаэлементы</li>
-        <li>Доступность</li>
-        <li>Работа с макетом</li>
-        <li>CSS</li>
-        <li>Практика. Flexbox</li>
-        <li>Адаптивность и кроссбраузерность</li>
-        <li>JavaScript для верстальщика</li>
-        <li>Бонус. Практикум</li>
-        <li>Работа с хостингом</li>
-        <li>Курсовая. Мини-проект в портфолио</li>
-      </ul>
-    </section>
+        <p class="paragraph">
+          Вторая часть курса сделает из вас настоящего мастера. Вы изучите
+          сборщики проектов, научитесь верстать email-рассылки, разберетесь с
+          анимацией на сайте.
+        </p>
+        <p class="paragraph">
+          Помимо этого, вы сверстаете фрагмент из интернет-магазина - главную
+          страницу, <br>страницу каталога и страницу товара!
+        </p>
+        <figure class="figure_pict">
+          <p>
+            <img class="figure_pict_image" src="pict/2.7_site2.jpeg" alt="Изображение сайта, который будет создан в рамках дипломного проекта">
+          </p>
+          <figcaption>Дипломный проект</figcaption>
+        </figure>
+      </section>
 
-    <table id="table_about_tags">
-      <caption>Таблица тегов</caption>
-      <tr>
-        <th colspan="2">Блочные</th>
-        <th colspan="2">Строчные</th>
-      </tr>
-      <tr>
-        <td><code>&lt;div&gt;Див&lt;/div&gt;</code></td>
-        <td>Тег div - строительный кирпичик без смысловой нагрузки</td>
-        <td><code>&lt;span&gt;Спан&lt;/span&gt;</code></td>
-        <td>Текстовый тег без смысловой нагрузки</td>
-      </tr>
-      <tr>
-        <td><code>&lt;p&gt;Параграф&lt;/p&gt;</code></td>
-        <td>Тег p - параграф текста</td>
-        <td><code>&lt;a href="#"&gt;Ссылка&lt;/a&gt;</code></td>
-        <td>Тег ссылки</td>
-      </tr>
-      <tr>
-        <td><code>&lt;h1&gt;Заголовок&lt;/h1&gt;</code></td>
-        <td>Тег заголовка. Различают 6 типов заголовков - h1-h6</td>
-        <td><code>&lt;img src="#" alt="Картинка"&gt;</code></td>
-        <td>Тег картинки</td>
-      </tr>
-      <tr>
-        <td><code>&lt;ul&gt;Список&lt;/ul&gt;</code></td>
-        <td>Тег ненумерованного списка. Есть также нумерованный - ol</td>
-        <td><code>&lt;i&gt;Курсивный текст&lt;/i&gt;</code></td>
-        <td>Тег для выделения текста курсивом</td>
-      </tr>
-      <tfoot>
+      <section>
+        <h2 class="level_2_head">Программа курса</h2>
+        <ul class="list">
+          <li class="list_skillbox_color_marker"><span class="list_usual_point">Основы вёрстки</span></li>
+          <li class="list_skillbox_color_marker"><span class="list_usual_point">HTML</span></li>
+          <li class="list_skillbox_color_marker"><span class="list_usual_point">Формы и медиаэлементы</span></li>
+          <li class="list_skillbox_color_marker"><span class="list_usual_point">Доступность</span></li>
+          <li class="list_skillbox_color_marker"><span class="list_usual_point">Работа с макетом</span></li>
+          <li class="list_skillbox_color_marker"><span class="list_usual_point">CSS</span></li>
+          <li class="list_skillbox_color_marker"><span class="list_usual_point">Практика. Flexbox</span></li>
+          <li class="list_skillbox_color_marker"><span class="list_usual_point">Адаптивность и кроссбраузерность</span></li>
+          <li class="list_skillbox_color_marker"><span class="list_usual_point">JavaScript для верстальщика</span></li>
+          <li class="list_skillbox_color_marker"><span class="list_usual_point">Бонус. Практикум</span></li>
+          <li class="list_skillbox_color_marker"><span class="list_usual_point">Работа с хостингом</span></li>
+          <li class="list_skillbox_color_marker"><span class="list_usual_point">Курсовая. Мини-проект в портфолио</span></li>
+        </ul>
+      </section>
+
+      <table id="table_about_tags">
+        <caption>Таблица тегов</caption>
         <tr>
-          <td class="table_footer" colspan="4">Теперь вы знаете основные HTML-теги!</td>
+          <th colspan="2">Блочные</th>
+          <th colspan="2">Строчные</th>
         </tr>
-      </tfoot>
-    </table>
+        <tr>
+          <td><code>&lt;div&gt;Див&lt;/div&gt;</code></td>
+          <td>Тег div - строительный кирпичик без смысловой нагрузки</td>
+          <td><code>&lt;span&gt;Спан&lt;/span&gt;</code></td>
+          <td>Текстовый тег без смысловой нагрузки</td>
+        </tr>
+        <tr>
+          <td><code>&lt;p&gt;Параграф&lt;/p&gt;</code></td>
+          <td>Тег p - параграф текста</td>
+          <td><code>&lt;a href="#"&gt;Ссылка&lt;/a&gt;</code></td>
+          <td>Тег ссылки</td>
+        </tr>
+        <tr>
+          <td><code>&lt;h1&gt;Заголовок&lt;/h1&gt;</code></td>
+          <td>Тег заголовка. Различают 6 типов заголовков - h1-h6</td>
+          <td><code>&lt;img src="#" alt="Картинка"&gt;</code></td>
+          <td>Тег картинки</td>
+        </tr>
+        <tr>
+          <td><code>&lt;ul&gt;Список&lt;/ul&gt;</code></td>
+          <td>Тег ненумерованного списка. Есть также нумерованный - ol</td>
+          <td><code>&lt;i&gt;Курсивный текст&lt;/i&gt;</code></td>
+          <td>Тег для выделения текста курсивом</td>
+        </tr>
+        <tfoot>
+          <tr>
+            <td class="table_footer" colspan="4">Теперь вы знаете основные HTML-теги!</td>
+          </tr>
+        </tfoot>
+      </table>
+
+    </div>
   </body>
 </html>

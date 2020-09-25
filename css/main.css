@@ -1,0 +1,202 @@
+/* Стартовый код */
+
+@font-face {
+	font-family: 'Graphik LCG';
+	src: url('css/fonts/GraphikLCG-Medium.woff2') format('woff2'),
+		url('css/fonts/GraphikLCG-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('css/fonts/Gilroy-Regular.woff2') format('woff2'),
+		url('css/fonts/Gilroy-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('css/fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+		url('css/fonts/Gilroy-ExtraBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('css/fonts/Gilroy-Medium.woff2') format('woff2'),
+		url('css/fonts/Gilroy-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Gilroy', sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+/* Код для index.html */
+
+.main-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #222020;
+}
+.index_head {
+  margin-bottom: 30px;
+  font-family: 'Graphik LCG', sans-serif;
+  color: white;
+}
+.program_download {
+  padding: 20px;
+  display: inline-block;
+  border: 3px solid #2f1ce4;
+  background-color: #2f1ce4;       /* цвет Skillbox */
+  color: white;
+}
+.way_to_program {
+  padding: 20px;
+  display: inline-block;
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+
+/* Код для program.html */
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+/* Стиль header */
+
+.way_to_index {
+  background-image: url(/pict/return.png);
+  background-size: 20px;
+  background-position: left;
+  background-repeat: no-repeat;
+  /* padding-left: 40px;   - паддинг также можно сюда поставить вместо следующего кода, но мне показалось, что лучше будет, если для "пользователя" стрелочка будет тоже кликабельной   */
+}
+.way_to_index a {
+  padding-left: 40px;
+}
+.program_head {
+  margin-top: 100px;
+  padding-left: 100px;
+  font-size: 48px;
+  color: #222020;
+}
+
+
+/* Стиль списков и параграфов */
+
+.level_2_head {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  padding-left: 180px;
+  font-size: 36px;
+  color: #2f1ce4;
+}
+.list {
+  padding-left: 200px;
+  line-height: 30px;
+  font-size: 18px;
+}
+.list_special_point {
+  text-decoration-line: underline;
+  color: #2f1ce4;
+}
+.list_skillbox_color_marker {
+  color: #2f1ce4;
+}
+.list_usual_point {
+  color: initial;
+}
+.paragraph {
+  margin-bottom: 20px;
+  padding-left: 180px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+
+/* Стиль фигур с картинкой */
+
+.figure_pict {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 200px;
+  font-size: 18px;
+  text-align: center;
+}
+.figure_pict_image {
+  max-width: 600px;
+  margin-bottom: 10px;
+}
+.figure_pict figcaption {
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+/* Стиль таблицы */
+
+#table_about_tags {
+  margin-top: 100px;
+  margin-left: 100px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #a0a0a0;
+}
+#table_about_tags caption {
+  padding-bottom: 30px;
+}
+th,
+td {
+  padding: 15px 5px;
+  border: 1px solid #a0a0a0;
+
+}
+.table_footer {
+  text-align: center;
+  font-weight: bold;
+  color: #2f1ce4;
+}
+
+
+/* Стили по 2ому модулю для program.html */
+
+.bold_words {
+  font-weight: bold;
+}
+.italic_words {
+  font-style: italic;
+}
+.strikethrough_words {
+  text-decoration-line: line-through;
+}
