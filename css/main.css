@@ -95,17 +95,17 @@ a {
 
 /* Стиль header */
 
-.way_to_index {
+.way_back {
   background-image: url(/pict/return.png);
   background-size: 20px;
   background-position: left;
   background-repeat: no-repeat;
   /* padding-left: 40px;   - паддинг также можно сюда поставить вместо следующего кода, но мне показалось, что лучше будет, если для "пользователя" стрелочка будет тоже кликабельной   */
 }
-.way_to_index a {
+.way_back a {
   padding-left: 40px;
 }
-.program_head {
+.main_head {
   margin-top: 100px;
   padding-left: 100px;
   font-size: 48px;
@@ -199,4 +199,81 @@ td {
 }
 .strikethrough_words {
   text-decoration-line: line-through;
+}
+
+
+/* Код для modules.html */
+
+.special_body_decor {
+  padding-bottom: 40%;
+  background-image: url(/pict/for_modules/figure1.svg);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+
+/* Особенности header для modules.html */
+
+.skillbox_name {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: 'Graphik LCG', sans-serif;
+  font-size: 40px;
+  color: #222020;
+}
+
+
+/* Стиль главного контента для modules.html */
+
+.main_content_with_list {
+  margin-top: 70px;
+  padding: 0 70px;
+}
+.list_block {
+  position: relative;
+  display: inline-block;
+  width: 480px;
+  min-height: 500px;
+  margin-bottom: 50px;
+  vertical-align: middle;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .31);
+}
+.left_block {
+  margin-right: 50px;
+}
+.list_header {
+  margin-top: 20px;
+  padding-left: 50px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #2f1ce4;
+}
+.list_in_list {
+  list-style-type: none;
+}
+.list_in_list li {
+  margin-top: 20px;
+  padding-left: 50px;
+}
+.list_block_number {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 48px;
+  color: #eaeaea;
+}
+
+
+/* Стиль кнопки для modules.html */
+
+.more_button {
+  margin-top: 80px;
+  text-align: center;
+}
+.more_button a {
+  padding: 30px 80px;
+  border: 3px solid #2f1ce4;
+  font-size: 18px;
+  color: #2f1ce4;
 }
